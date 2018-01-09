@@ -1,0 +1,129 @@
+body{
+	background-color: white;
+}
+.texto{
+	margin-left: 97px;
+	font-family:Impact;
+	color: deeppink;
+	text-align: center;
+}
+
+
+.opcion{
+	width: 65px;
+	display: inline-block;
+  	padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: deeppink;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 6px #999;
+    transition: 0.2s;
+}
+.opcion:hover{opacity: 0.9; box-shadow: 0 4px #999; transform: translateY(2px);}
+.opcion:active{box-shadow: 0 2px #999; transform: translateY(3px); border: none;}
+
+
+.entrada{
+	background-color: lightpink;
+	width: 100%;
+	padding-left:18px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: -10px;
+	box-shadow: 0 4px 6px 0 pink, 0 6px 10px 0 pink;
+
+
+
+}
+
+.contenedor{
+	margin-left: 30%;
+}
+.contenedor3{
+	background-color: deeppink;
+	height: 100px;
+	width: 140px;
+	padding: 0%;
+	margin-top: -40%;
+	margin-right:8%;
+	border: none;
+    border-radius: 5px;
+	float: right;
+    box-shadow: 0 5px #999;
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+}
+.porcentaje{
+	margin: 50%;
+}
+.pantallita{
+	background-color: lightpink;
+	margin-right: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form{
+	margin:20%;
+	font-size: 180%;
+	color:white;
+	text-align: center;
+}
+
+.botoncito{
+	width: 50px;
+	height: 50px;
+	background-color: #99ff66;
+	margin-left: 15px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px #999;
+	transition: 0.5s;
+	transition-duration: 1s; 
+}
+
+.botoncito:hover{opacity: 0.9; box-shadow: 0 4px #999; transform: translateY(1px); transform: scale(0.8);}
+.botoncito:active{box-shadow: 0 2px #999; transform: translateY(3px); transform: scale(1.5); }
+
+
+.verde{
+	background-color: #99ff66;
+}
+
+.rojo{
+	background-color: deeppink;
+	color: white;
+	font: 110%;
+}
+
+.azul{
+	background-color: #00ccff;
+}
+
+.blanco{
+	background-color: white ;
+	color:black;
+}
+.arriba{
+	width: 150px;
+	height: 55px;
+	margin-top: -285px;
+
+}
+
+.abajo{
+	width: 100px;
+	height: 80px;
+	margin-top: -75px;
+}
+.aumentar{
+	transform: scale(1.2); 
+}
