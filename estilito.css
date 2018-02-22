@@ -10,9 +10,9 @@ body{
 
 
 .opcion{
-	width: 65px;
+	width: 70px;
 	display: inline-block;
-  	padding: 5px 5px;
+  	padding: 10px 5px;
     font-size: 15px;
     cursor: pointer;
     text-align: center;
@@ -21,7 +21,7 @@ body{
     color: black;
     background-color: deeppink;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     box-shadow: 0 6px #999;
     transition: 0.2s;
 }
@@ -84,14 +84,14 @@ body{
 	background-color: #99ff66;
 	margin-left: 15px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 50%;
 	box-shadow: 0 5px #999;
 	transition: 0.5s;
 	transition-duration: 1s; 
 }
 
 .botoncito:hover{opacity: 0.9; box-shadow: 0 4px #999; transform: translateY(1px); transform: scale(0.8);}
-.botoncito:active{box-shadow: 0 2px #999; transform: translateY(3px); transform: scale(1.5); }
+.botoncito:active{box-shadow: 0 2px #999; transform: translateY(1px); transform: scale(0.5); }
 
 
 .verde{
